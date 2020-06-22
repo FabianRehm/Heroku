@@ -4,7 +4,6 @@ const fs = require("fs");
 const cors = require("cors");
 const filename = __dirname + "/profs.json";
 const port = process.env.PORT || 5000;
-app.listen(port, () => console.log(`Server listening on port ${port}!`));
 
 //Middleware
 app.use(express.json()); //for parsing application/json
